@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+}
+body, html {
+	margin: 0;
+	padding: 0;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #515281;
+}
+
+.title {
+    color: #ffffff;
+    font-family: 'Sigmar One', cursive;
+    font-size: 58px;
+    padding-bottom: 50px;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    align-self: center;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+h4 {
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    align-self: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#start {
+    width: 196px;
+    height: 76px;
+    background-color: #E0678A;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* margin: 0 auto; */
+
+}
+
+#wrapper {
+	margin: 0;
+	padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/form-bakrunnur.png); 
+	background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#quizDiv {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: #ffffff;
+    font-family: 'Sigmar One', cursive;
+    font-weight: 900;
+    font-size: 58px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+#box-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+img.opt1 {
+    width: 153px;
+    height: 153px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+img.opt2 {
+    width: 153px;
+    height: 153px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+h3 {
+    background-color: darkorchid;
+    width: 153px;
+    height: 153px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+}
+h3 span {
+    font-weight: 700;
+}
+
+input.word {
+    width: 327px;
+    height: 76px;
+    border-radius: 10px;
+    text-indent: 20px;
+    font-size: 18px;
+
+}
+button.check {
+    width: 153px;
+    height: 76px;
+    background-color: #E0678A;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#finalDiv {
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+.FFFF {
+    color: #ffffff;
+    font-family: 'Sigmar One', cursive;
+    font-weight: 900;
+    font-size: 58px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+#questions {
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#stig {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 900;
+    background-color: #A666E3;
+    padding: 20px 70px 20px 20px;
+}
